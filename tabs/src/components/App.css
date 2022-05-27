@@ -1,0 +1,124 @@
+
+/**/
+body,
+#root>div {
+    background-color: #F3F2F1;
+}
+
+.flex-container {
+    display: flex;
+    max-width: 900px;
+    margin: auto;
+}
+
+.features-col {
+    width: 100%;
+}
+
+.features {
+    min-height: 95vh;
+    margin: 20px;
+    background-color: #FFF;
+    box-shadow: 0px 1.2px 3.6px rgba(0, 0, 0, 0.11), 0px 6.4px 14.4px rgba(0, 0, 0, 0.13);
+    border-radius: 4px;
+}
+
+
+.header {
+    display: flex;
+    background-color: #f0f0f0;
+}
+
+.title {
+    margin: 20px;
+    width: 100%;
+}
+
+.title h2 {
+    margin: 0;
+    font-size: 18px;
+    line-height: 24px;
+    display: inline;
+    width: 100%;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.title span {
+    margin: 3px 0;
+    font-size: 12px;
+    line-height: 12px;
+    color: #8A8886;
+}
+
+
+.header-container span {
+    font-size: 12px;
+}
+
+span {
+    display: inline-block;
+    margin: 5px;
+}
+
+.auth {
+    margin-top: 30vh;
+}
+
+
+.auth button {
+    display: block;
+    margin: 32px auto;
+}
+
+@media only screen and (max-width: 820px) {
+    .flex-container {
+        display: block;
+    }
+}
+
+mgt-person{
+    padding: 20;
+    /* align-content: center; */
+    --avatar-size: 80px;
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+  
+    --font-family: 'Segoe UI';
+    --font-size: 20px;
+    --font-weight: 700;
+    --color: black;
+    --text-transform: none;
+  
+    --line2-font-size: 14px;
+    --line2-font-weight: 400;
+    --line2-color: #8A8886;
+    --line2-text-transform: none;
+}
+/**/
+/* Main content */
+#content, html, body {
+    height: 98%;
+    
+  }
+ 
+  #mgt-col {
+    float: left;
+    width: 32%;
+    background:transparent;
+    height:700px;
+    overflow: hidden;
+    padding: 10;
+  }
+  #mgt-col:hover {
+    overflow-y: auto;
+  }
+ 
+
+  
+  
