@@ -3,14 +3,10 @@
 
 import React from 'react';
 import './App.css';
-
 import { TeamsFx } from "@microsoft/teamsfx";
 import { Button } from "@fluentui/react-northstar"
-
 import { Providers, ProviderState } from '@microsoft/mgt-element';
-import {  Agenda, Todo, FileList, Person, PersonViewType, PersonCardInteraction } from '@microsoft/mgt-react';
-
-
+import {  Agenda, Todo, FileList, Person, PersonViewType } from '@microsoft/mgt-react';
 import { TeamsFxProvider } from '@microsoft/mgt-teamsfx-provider';
 import { CacheService } from '@microsoft/mgt';
 
@@ -39,7 +35,9 @@ class Tab extends React.Component {
       "Files.Read.All",
       "Sites.Read.All",
       "Tasks.Read",
-      "Tasks.ReadWrite"
+      "Tasks.ReadWrite",
+      "People.Read",
+      "User.ReadBasic.All"
     ];
 
     /*Initialize Graph Toolkit */
@@ -98,30 +96,42 @@ class Tab extends React.Component {
         <div className='features-avatar'>
           <Person personQuery="me" view={PersonViewType.threelines} ></Person>
         </div>
-         <div className="features">
+        
+        <div className="features">
           <div className="header">
             <div className="title">
-                <h2>One Productivity Hub</h2>
-             
+            <h2>One Productivity Hub</h2>
+
+              <div class="row">
+                <div class="column">
+                    <h3>Calendar events</h3>
+                </div>
+                <div class="column">
+                  <h3>To-do tasks</h3>
+                </div>
+                <div class="column">
+                  <h3>Files</h3>
+                </div>
+              </div>
             </div>
           </div>
 
        
-          <div class="row" id="content">
+          <div class="row" className="content">
     
-                  <div class="column" id="mgt-col">
+                  <div class="column" className="mgt-col">
                     <Agenda></Agenda>
                   </div>
-                  <div class="column" id="mgt-col">
+                  <div class="column" className="mgt-col">
                     <Todo></Todo>
                   </div>
-                  <div class="column" id="mgt-col">
+                  <div class="column" className="mgt-col">
                     <FileList></FileList>
                   </div>
                   
           </div>
 
-          </div>
+        </div>
         </div>
            
         }
@@ -129,10 +139,11 @@ class Tab extends React.Component {
         {
         this.state.showLoginPage === true && 
         <div className="auth">
-        
-          {<Button primary onClick={() => this.loginBtnClick()}>Consent Permissions</Button>}
-     
-        </div>}
+        <h3>Welcome to One Productivity Hub app!</h3>
+        <p>Please click on "Start One Productivity Hub" and consent permissions to use the app.</p> 
+        <Button primary onClick={() => this.loginBtnClick()}>Start One Productivity Hub</Button>
+        </div>
+        }
       </div>
       
     );
