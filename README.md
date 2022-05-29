@@ -7,7 +7,7 @@ In this lab, you will learn:
 - Adding an authentication feature by using Microsoft Teams Toolkit
 - Consuming Microsoft Graph Toolkit components and TeamsFX provider to enable Microsoft 365 data such as calendar, tasks and files in a Teams tab 
 
-Final solution will be a Microsoft Teams tab for monitoring your tasks, e-mails and files:
+Final solution will be a Microsoft Teams tab for monitoring your agenda, to-do tasks and file list:
 
 ![One Productivity Hub app](/Labs/Images/OneProductivityHub-Final.gif)
 
