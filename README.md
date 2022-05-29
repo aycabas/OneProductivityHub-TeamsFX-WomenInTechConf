@@ -9,7 +9,7 @@ In this lab, you will learn:
 
 Final solution will be a Microsoft Teams tab for monitoring your tasks, e-mails and files:
 
-![One Productivity Hub app](/Labs/Images/OneProductivityHub.gif)
+![One Productivity Hub app](/Labs/Images/OneProductivityHub-Final.gif)
 
 This repository contains the entire workshop, including source code, and step-by-step instructions.
 
