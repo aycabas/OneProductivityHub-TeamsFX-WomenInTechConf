@@ -176,7 +176,7 @@ Under div tagged with `className="content"`, add the FileList component inside t
 ```
 
 ### Final version of `Tab.jsx`
-Finally, `Tab/jsx` will look as following:
+Finally, `Tab.jsx` will look as following:
 ```javascript
 import React from 'react';
 import './App.css';

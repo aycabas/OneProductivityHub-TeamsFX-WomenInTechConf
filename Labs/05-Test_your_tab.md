@@ -18,4 +18,4 @@ Select **Run and Debug** tab in the left side bar and select **Debug** icon to r
 - Microsoft Docs - [Build a Microsoft Teams tab with the Microsoft Graph Toolkit](https://cda.ms/1Jh)
 
 ## Completed Solution
-> ▶️ **Completed solution can be found under the `Solution` folder.**
+> ▶️ **Completed solution can be found under the `tabs` folder.**

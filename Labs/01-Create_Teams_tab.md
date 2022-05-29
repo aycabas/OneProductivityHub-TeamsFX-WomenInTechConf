@@ -43,7 +43,7 @@
 
 1. Teams Toolkit will run the tab in your Microsoft 365 Developer Tenant account.
 
-    ![Microsoft Teams Toolkit Extension for Visual Studio Code](Images/TT-CreateApp-9.PNG)
+    ![Microsoft Teams Toolkit Extension for Visual Studio Code](Images/TT-CreateApp-9.png)
 
 
 ## References
