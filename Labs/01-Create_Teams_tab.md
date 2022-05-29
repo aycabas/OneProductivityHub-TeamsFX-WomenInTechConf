@@ -11,11 +11,11 @@
 
 1. Launch Visual Studio Code and select Microsoft Teams icon on the left side bar, then select **Create a new Teams app**.
 
-   ![Microsoft Teams Toolkit Extension for Visual Studio Code](Images/TT-CreateApp-1.png)
+   ![Microsoft Teams Toolkit Extension for Visual Studio Code](Images/TT-CreateApp-1.PNG)
    
 1. Select **Create a new Teams app** and press **Enter**
    
-   ![Microsoft Teams Toolkit Extension for Visual Studio Code](Images/TT-CreateApp-2.png)
+   ![Microsoft Teams Toolkit Extension for Visual Studio Code](Images/TT-CreateApp-2.PNG)
 
 1. Select **Tab** and press **Enter**
    
