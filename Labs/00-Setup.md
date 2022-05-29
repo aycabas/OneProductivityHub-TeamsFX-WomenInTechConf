@@ -39,8 +39,10 @@ Turn on custom app sideloading for your developer tenant as follows:
 
 2. Select **Show All** --> **Teams**. 
 
-> [!Note] 
-> It can take up to 24 hours for the "Teams" option to appear. During interim, you can [Upload your custom app to a Teams environment](https://cda.ms/1Js) for testing and validation.
+---
+**📌 NOTE 📌 :** It can take up to 24 hours for the "Teams" option to appear. During interim, you can [Upload your custom app to a Teams environment](https://cda.ms/1Js) for testing and validation.
+
+---
 
 3. Navigate to **Teams apps** --> **Setup Policies** --> **Global(Org-wide default)**  
 
@@ -48,8 +50,10 @@ Turn on custom app sideloading for your developer tenant as follows:
 
 That's it! Your test tenant will now allow custom app sideloading.
 
-> [!Note] 
-> It can take up to 24 hours before sideloading is enabled. During interim, you can use **upload for \<your tenant>** to test your app.
+---
+**📌 NOTE 📌 :** It can take up to 24 hours before sideloading is enabled. During interim, you can use **upload for \<your tenant>** to test your app.
+
+---
 
 For complete information on how these settings interact, *See*, [Manage custom app policies and settings in Microsoft Teams](https://cda.ms/1Jt) and [Manage app setup policies in Microsoft Teams](https://cda.ms/1Jv).
 

@@ -12,8 +12,10 @@ Select **Run and Debug** tab in the left side bar and select **Debug** icon to r
 
 ![One Productivity Hub app](/Labs/Images/OneProductivityHub-final.gif)
 
-> **📌 NOTE 📌 :** Try to add some calendar events, tasks and e-mails in your M365 Developer tenant account. Your "One Productivity Hub" will look awesome that way! 🌟 
+---
+**📌 NOTE 📌 :** Try to add some calendar events, to-do tasks and file folders in your M365 Developer tenant account. Your "One Productivity Hub" will look awesome that way! 🌟 
 
+---
 ## References
 - Microsoft Docs - [Build a Microsoft Teams tab with the Microsoft Graph Toolkit](https://cda.ms/1Jh)
 
