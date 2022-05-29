@@ -9,7 +9,7 @@ In this lab, you will learn:
 
 Final solution will be a Microsoft Teams tab for monitoring your agenda, to-do tasks and file list:
 
-![One Productivity Hub app](/Labs/Images/OneProductivityHub-Final.gif)
+![One Productivity Hub app](/Labs/Images/OneProductivityHub-final.gif)
 
 This repository contains the entire workshop, including source code, and step-by-step instructions.
 

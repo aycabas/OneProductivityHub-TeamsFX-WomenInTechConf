@@ -10,7 +10,7 @@
 
 Select **Run and Debug** tab in the left side bar and select **Debug** icon to run the app.
 
-![One Productivity Hub app](/Labs/Images/OneProductivityHub-Final.gif)
+![One Productivity Hub app](/Labs/Images/OneProductivityHub-final.gif)
 
 > **📌 NOTE 📌 :** Try to add some calendar events, tasks and e-mails in your M365 Developer tenant account. Your "One Productivity Hub" will look awesome that way! 🌟 
 
