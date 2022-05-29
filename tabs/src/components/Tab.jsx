@@ -24,10 +24,8 @@ class Tab extends React.Component {
 
   async componentDidMount() {
 
-    /*Initialize TeamsFx */
-    this.teamsfx = new TeamsFx();
-
-    this.scope = [
+     /*Define scope for the required permissions*/
+     this.scope = [
       "User.Read",
       "User.ReadBasic.All",
       "Calendars.Read",
@@ -40,7 +38,8 @@ class Tab extends React.Component {
       "User.ReadBasic.All"
     ];
 
-    /*Initialize Graph Toolkit */
+    /*Initialize TeamsFX provider*/
+    this.teamsfx = new TeamsFx();
     const provider = new TeamsFxProvider(this.teamsfx, this.scope)
     Providers.globalProvider = provider;
    
