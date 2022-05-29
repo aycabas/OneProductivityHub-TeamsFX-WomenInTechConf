@@ -13,19 +13,19 @@
 
    ![Microsoft Teams Toolkit Extension for Visual Studio Code](Images/TT-CreateApp-1.PNG)
    
-1. Select **Create a new Teams app** and press **Enter**
+1. Select **Create a new Teams app** and press **Enter**.
    
    ![Microsoft Teams Toolkit Extension for Visual Studio Code](Images/TT-CreateApp-2.PNG)
 
-1. Select **Tab** and press **Enter**
+1. Select **Tab** and press **Enter**.
    
    ![Microsoft Teams Toolkit Extension for Visual Studio Code](Images/TT-CreateApp-3.PNG)
    
-1. Select **JavaScript** and press **Enter**
+1. Select **JavaScript** and press **Enter**.
 
     ![Microsoft Teams Toolkit Extension for Visual Studio Code](Images/TT-CreateApp-4.PNG)
 
-1. Select a folder to save your application and give an application name as **OneProductivityHub**, press **Enter**
+1. Select a folder to save your application and give an application name as **OneProductivityHub**, press **Enter**.
 
     ![Microsoft Teams Toolkit Extension for Visual Studio Code](Images/TT-CreateApp-5.PNG)
     

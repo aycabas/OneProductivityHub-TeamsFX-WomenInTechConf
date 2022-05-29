@@ -5,7 +5,7 @@
 In this lab, you will learn:
 - Creating a Microsoft Teams tab by using Microsoft Teams Toolkit
 - Adding an authentication feature by using Microsoft Teams Toolkit
-- Consuming Microsoft Graph Toolkit components and TeamsFX provider to enable Microsoft 365 data such as agenda, to-do tasks and files in a Teams tab 
+- Consuming Microsoft Graph Toolkit components and TeamsFX provider to enable Microsoft 365 data such as agenda, to-do tasks and files in a Teams tab
 
 Final solution will be a Microsoft Teams tab for monitoring your agenda, to-do tasks and file list:
 
@@ -17,7 +17,7 @@ This repository contains the entire workshop, including source code, and step-by
 
 Before you start this lab, you will need an environment setup. Review the [Environment Setup](/Labs/00-Setup.md) guidlines for the following prerequisites or click the related link of each prerequisite to be directed to the official documentation:
   
-- [Prepare your Office 365 tenant](https://cda.ms/1J5) 
+- [Prepare your Office 365 tenant](https://cda.ms/1J5)
 - Install [Visual Studio Code](https://code.visualstudio.com/)
 - Install [Node.js Long Term Support](https://nodejs.org/)
 - Download [Microsoft Teams Toolkit extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=TeamsDevApp.ms-teams-vscode-extension)
@@ -32,21 +32,20 @@ Before you start this lab, you will need an environment setup. Review the [Envir
 - [Part 5 - Test One Productivity Hub app on Microsoft Teams](/Labs/05-Test_your_tab.md)
 
 
-### The workshop instructions may include the following signs: 
+### The workshop instructions may include the following signs:
 
 ---
-
 **📌 NOTE 📌 :** Informative notes about the workshop.
 
 ---
 ---
-**⚡ IMPORTANT! ⚡ :** Critical points about the lab exercises. 
+**⚡ IMPORTANT! ⚡ :** Critical points about the lab exercises.
 
 ---
 
 ## Solution
 
-Completed solution can be found under the `tabs` folder. 
+Completed solution can be found under the `tabs` folder.
 
 Solution|Authors
 --------|-------

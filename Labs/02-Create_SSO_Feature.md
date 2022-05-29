@@ -9,15 +9,15 @@
 
 1. Select **Teams Toolkit** icon on the left side menu and select **Add features** under the **DEVELOPMENT** section.
 
-   ![Single sign on feature](Images/TT-AuthFeature-1.png) 
+   ![Single sign on feature](Images/TT-AuthFeature-1.png)
 
 1. Scroll down in the features list and select **Single Sign On**.
 
-   ![Single sign on feature](Images/TT-AuthFeature-2.png) 
+   ![Single sign on feature](Images/TT-AuthFeature-2.png)
 
 1. Move `auth-start.html` and `auth-end.html` in **auth/public** folder to **tabs/public/** in your project. These two HTML files are used for auth redirects.
 
-   ![Single sign on feature](Images/TT-AuthFeature-3.png) 
+   ![Single sign on feature](Images/TT-AuthFeature-3.png)
 
 ## References
 - Microsoft Docs - [Add single sign-on to Teams app](https://docs.microsoft.com/en-us/microsoftteams/platform/toolkit/add-single-sign-on?tabs=typescript)
